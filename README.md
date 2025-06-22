@@ -32,6 +32,17 @@ make start-server
 ```
 >Antes de executar esse comando, certifique-se de que os containers do Docker estão rodando corretamente.
 
+### Portas dos Serviços
+
+Durante a execução local, os serviços da aplicação estarão disponíveis nas seguintes portas:
+
+| Serviço     | Descrição                          | Porta  |
+|--------------|------------------------------------|--------|
+| **REST API** | Web server HTTP (endpoints REST)   | `8000` |
+| **gRPC**     | Servidor gRPC                      | `50051`|
+| **GraphQL**  | Servidor GraphQL Playground & API  | `8080` |
+
+
 ## Testando o projeto
 
 ### Pre-requisitos
